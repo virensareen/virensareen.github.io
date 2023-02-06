@@ -1,0 +1,21 @@
+@model List<Resume.Data.Tables.Certification>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Certifications</h1>
+            <hr>
+        </div>
+        @foreach (var certification in Model.OrderByDescending(c => c.DateOfCompletion))
+        {
+            <div class="col-md-4">
+                <div class="certification-item">
+                    <i class="fas fa-certificate fa-2x"></i>
+                    <img src="@Url.Content(certification.ImageUrl)" class="small-icon-img" alt="@certification.Title" style="float: left; margin-right: 10px;">
+                    <h2 class="certification-title">@certification.Title</h2>
+                    <p class="certification-date">@certification.DateOfCompletion.Value.ToString("MMMM yyyy")</p>
+                    <p class="certification-description">@certification.Description</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>

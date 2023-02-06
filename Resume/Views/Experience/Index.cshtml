@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Professional Experience</h1>
+            <hr>
+        </div>
+    </div>
+    @foreach (var experience in Model)
+    {
+        <div class="row">
+            <div class="col-md-3">
+                <img src="@Url.Content(@experience.LogoUrl)" class="medium-icon-img" alt="@experience.Company">
+            </div>
+            <div class="col-md-9">
+                <h3>@experience.JobTitle</h3>
+                <h4>@experience.Company</h4>
+                <h5>@experience.Location</h5>
+                <h5>@experience.TimePeriod</h5>
+                <h6>Key Achievements:</h6>
+                <ul>
+                    @if(experience.WorkAchievements != null)
+                    {
+                        @foreach (var achievement in experience.WorkAchievements)
+                        {
+                            <li>@achievement.Description</li>
+                        }
+                    }
+                </ul>
+                <hr>
+            </div>
+        </div>
+    }
+</div>

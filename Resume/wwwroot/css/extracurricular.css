@@ -1,0 +1,10 @@
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 45%;
+    margin: 0 2% 2% 0;
+}

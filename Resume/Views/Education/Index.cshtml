@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Education</h1>
+            <hr>
+        </div>
+    </div>
+    @foreach (var education in Model)
+    {
+        <div class="row">
+            <div class="col-md-3">
+                <img src="@Url.Content(@education.LogoUrl)" class="medium-icon-img" alt="@education.School" class="img-thumbnail">
+            </div>
+            <div class="col-md-9">
+                <h3>@education.School</h3>
+                <h4>@education.Course</h4>
+                <h5>@education.Grade - @education.GraduationDate.ToString("MMM yyyy")</h5>
+                <h6>Key Achievements:</h6>
+                <ul>
+                    @if(education.EducationAchievements != null)
+                    {
+                        @foreach (var achievement in education.EducationAchievements)
+                        {
+                            <li>@achievement.Description</li>
+                        }
+                    }
+                </ul>
+                <hr>
+            </div>
+        </div>
+    }
+</div>

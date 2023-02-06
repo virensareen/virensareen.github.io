@@ -1,0 +1,32 @@
+.certification-item {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.certification-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.certification-date {
+    margin-left: 60px;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.certification-description {
+    margin-left: 60px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.fa-certificate {
+    color: #3F51B5;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

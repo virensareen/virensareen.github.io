@@ -1,0 +1,66 @@
+@using Resume.Data.Enums
+@model List<Resume.Data.Tables.Skill>
+
+<div class="skill-section">
+    @foreach (var skillType in new [] { SkillType.Programming, SkillType.Tech, SkillType.Soft })
+    {
+        <div class="col-md-12">
+            <h1>@skillType</h1>
+            <hr>
+        </div>
+        <div class="skill-list">
+            @{
+                List<string> skillNames = new List<string>();
+                switch (skillType)
+                {
+                    case SkillType.Programming:
+                        foreach (var skill in Model.Where(s => s.SkillType == (SkillType)skillType))
+                        {
+                            foreach (var programmingSkill in skill.ProgrammingSkills)
+                            {
+                                skillNames.Add(programmingSkill.Name);
+                            }
+                        }
+                        break;
+                    case SkillType.Tech:
+                        foreach (var skill in Model.Where(s => s.SkillType == (SkillType)skillType))
+                        {
+                            foreach (var techSkill in skill.TechSkills)
+                            {
+                                skillNames.Add(techSkill.Name);
+                            }
+                        }
+                        break;
+                    case SkillType.Soft:
+                        foreach (var skill in Model.Where(s => s.SkillType == (SkillType)skillType))
+                        {
+                            foreach (var softSkill in skill.SoftSkills)
+                            {
+                                skillNames.Add(softSkill.Name);
+                            }
+                        }
+                        break;
+                }
+                skillNames = skillNames.OrderBy(s => s).ToList();
+            }
+            <div class="skill-col">
+                @for (int i = 0; i < skillNames.Count; i += 3)
+                {
+                    <div class="skill">- @skillNames[i]</div>
+                }
+            </div>
+            <div class="skill-col">
+                @for (int i = 1; i < skillNames.Count; i += 3)
+                {
+                    <div class="skill">- @skillNames[i]</div>
+                }
+            </div>
+            <div class="skill-col">
+                @for (int i = 2; i < skillNames.Count; i += 3)
+                {
+                    <div class="skill">- @skillNames[i]</div>
+                }
+            </div>
+        </div>
+    }
+</div>

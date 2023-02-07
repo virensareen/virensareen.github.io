@@ -78,3 +78,12 @@
 /Users/virensareen/RiderProjects/Resume/Resume/obj/Release/net6.0/Resume.pdb
 /Users/virensareen/RiderProjects/Resume/Resume/obj/Release/net6.0/Resume.genruntimeconfig.cache
 /Users/virensareen/RiderProjects/Resume/Resume/obj/Release/net6.0/ref/Resume.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/System.Text.Encodings.Web.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/System.Text.Json.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Resume.Data.DataSetup;
 using Resume.Data.Tables;
 
 namespace Resume.Data;
@@ -18,10 +19,8 @@ public class DataContext : DbContext
     public DbSet<WorkAchievement> WorkAchievement { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlServer(
-            "Server=localhost,1433; " +
-            "Database=ResumeDb;" +
-            "User=sa; " +
-            "Password=Strong.Pwd-123; " +
-            "TrustServerCertificate=true");
+    {
+        var conn = DbConfig.GetConnString("db");
+        options.UseSqlServer(conn);
+    }
 }

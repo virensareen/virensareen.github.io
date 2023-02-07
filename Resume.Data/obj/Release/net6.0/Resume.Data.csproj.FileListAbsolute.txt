@@ -11,3 +11,10 @@
 /Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/refint/Resume.Data.dll
 /Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.pdb
 /Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/ref/Resume.Data.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/appsettings.Development.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/appsettings.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/System.Security.Permissions.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/System.Windows.Extensions.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/System.Drawing.Common.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.csproj.CopyComplete

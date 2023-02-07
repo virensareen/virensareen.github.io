@@ -107,10 +107,4 @@ public static class SetupBase
     {
         return Directory.GetParent(Directory.GetCurrentDirectory())!.FullName;
     }
-    
-    private static string GetSolutionRootPathForTest()
-    {
-        return Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(
-            Directory.GetCurrentDirectory())!.FullName)!.FullName)!.FullName)!.FullName;
-    }
 }

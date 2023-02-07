@@ -12,7 +12,7 @@ public static class DbConfig
             .Build();
 
         var connectionString = configuration.GetConnectionString("db");
-
+        Console.WriteLine(connectionString);
         return connectionString ?? throw new InvalidOperationException();
     }
 }

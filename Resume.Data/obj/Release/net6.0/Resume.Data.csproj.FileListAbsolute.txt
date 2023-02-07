@@ -1,0 +1,13 @@
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/Assets/Person.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/Resume.Data.deps.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/Resume.Data.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Release/net6.0/Resume.Data.pdb
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.csproj.AssemblyReference.cache
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.AssemblyInfoInputs.cache
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.AssemblyInfo.cs
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.csproj.CoreCompileInputs.cache
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/refint/Resume.Data.dll
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/Resume.Data.pdb
+/Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Release/net6.0/ref/Resume.Data.dll

@@ -7,7 +7,7 @@ public static class DbConfig
 {
     public static string GetConnString(string name)
     {
-        var connectionString = Environment.GetEnvironmentVariable("db");
+        var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings:db");
         Console.WriteLine(connectionString);
 
         if (connectionString == null)
@@ -17,7 +17,7 @@ public static class DbConfig
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            connectionString = configuration.GetConnectionString("db");
+            connectionString = configuration.GetConnectionString("ConnectionStrings:db");
         }
         Console.WriteLine(connectionString);
         Console.WriteLine("_______________________");

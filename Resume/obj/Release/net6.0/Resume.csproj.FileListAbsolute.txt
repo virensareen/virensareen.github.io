@@ -87,3 +87,4 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/System.Text.Encodings.Web.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/System.Text.Json.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Web.config

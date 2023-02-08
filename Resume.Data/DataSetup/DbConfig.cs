@@ -6,13 +6,18 @@ public static class DbConfig
 {
     public static string GetConnString(string name)
     {
-        var configuration = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json")
-            .Build();
+        var connectionString = Environment.GetEnvironmentVariable("db");
+        
+        if (connectionString == null)
+        {
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
 
-        var connectionString = configuration.GetConnectionString("db");
-        Console.WriteLine(connectionString);
+            connectionString = configuration.GetConnectionString("db");
+        }
+
         return connectionString ?? throw new InvalidOperationException();
     }
 }

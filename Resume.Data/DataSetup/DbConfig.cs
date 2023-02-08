@@ -7,7 +7,8 @@ public static class DbConfig
     public static string GetConnString(string name)
     {
         var connectionString = Environment.GetEnvironmentVariable("db");
-        
+        Console.WriteLine(connectionString);
+
         if (connectionString == null)
         {
             var configuration = new ConfigurationBuilder()

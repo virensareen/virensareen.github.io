@@ -27,7 +27,6 @@ public static class DatabaseSetup
 
     public static async Task ResetDb()
     {
-        await Db.Database.EnsureDeletedAsync();
         await Db.Database.EnsureCreatedAsync();
         await SetupBase.PopulateSetupData();
         

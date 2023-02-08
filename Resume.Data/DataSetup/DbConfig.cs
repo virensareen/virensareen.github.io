@@ -7,8 +7,7 @@ public static class DbConfig
 {
     public static string GetConnString(string name)
     {
-        var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings:db");
-        Console.WriteLine(connectionString);
+        var connectionString = Environment.GetEnvironmentVariable(name);
 
         if (connectionString == null)
         {
@@ -17,14 +16,9 @@ public static class DbConfig
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            connectionString = configuration.GetConnectionString("ConnectionStrings:db");
+            connectionString = configuration.GetConnectionString(name);
         }
-        Console.WriteLine(connectionString);
-        Console.WriteLine("_______________________");
-        foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
-        {
-            Console.WriteLine("  {0} = {1}", de.Key, de.Value);
-        }
+        
         return connectionString ?? throw new InvalidOperationException();
     }
 }

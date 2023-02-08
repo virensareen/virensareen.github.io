@@ -20,7 +20,7 @@ public class DataContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        var conn = DbConfig.GetConnString("db");
+        var conn = DbConfig.GetConnString("ConnectionStrings:db");
         options.UseSqlServer(conn);
     }
 }

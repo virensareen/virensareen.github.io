@@ -17,7 +17,7 @@ public static class DbConfig
 
             connectionString = configuration.GetConnectionString("db");
         }
-
+        Console.WriteLine(connectionString);
         return connectionString ?? throw new InvalidOperationException();
     }
 }

@@ -1,0 +1,32 @@
+[
+  {
+  "Title": "Microsoft 98-361 Certification.",
+  "Description": "Passed the software development fundamentals exam.",
+  "DateOfCompletion": "June 2022",
+  "ImageUrl": "~/assets/certification/microsoft.png"
+  },
+  {
+    "Title": "Angular 8 - Udemy.",
+    "Description": "Completion certificate for an Angular 8 course on Udemy.",
+    "DateOfCompletion": "August 2020",
+    "ImageUrl": "~/assets/certification/udemy.png"
+  },
+  {
+    "Title": "M20761 Querying Data with Transact-SQL.",
+    "Description": "Completion certificate from an official Microsoft partner for Gold Learning.",
+    "DateOfCompletion": "September 2019",
+    "ImageUrl": "~/assets/certification/msgoldpartner.png"
+  },
+  {
+    "Title": "Platinum Award - King's College London Student Union (KCLSU).",
+    "Description": "An award to commemorate over 150 hours of service and volunteering efforts for KCLSU.",
+    "DateOfCompletion": "July 2017",
+    "ImageUrl": "~/assets/certification/kclsu.jpg"
+  },
+  {
+    "Title": "Silver Crown - King's College London Student Union (KCLSU).",
+    "Description": "Recognition for achievements and contribution to the student community and the union.",
+    "DateOfCompletion": "July 2017",
+    "ImageUrl": "~/assets/certification/kclsu.jpg"
+  }
+]

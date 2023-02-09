@@ -87,4 +87,10 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/System.Text.Encodings.Web.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/System.Text.Json.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
-/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Web.config
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/Certification.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/Education.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/ExtraCurricular.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/ProgrammingSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/SoftSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/TechSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Release/net6.0/Assets/WorkExperience.json

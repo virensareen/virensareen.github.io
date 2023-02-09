@@ -1,0 +1,19 @@
+[
+  {"Name": "Agile"},
+  {"Name": "Kanban"},
+  {"Name": "Waterfall"},
+  {"Name": "Software Architecture"},
+  {"Name": "SDLC"},
+  {"Name": "Linux"},
+  {"Name": "Windows"},
+  {"Name": "MacOS"},
+  {"Name": "Teamwork"},
+  {"Name": "Communication"},
+  {"Name": "Presentation"},
+  {"Name": "Time Management"},
+  {"Name": "Leadership"},
+  {"Name": "Problem Solving"},
+  {"Name": "Adaptability"},
+  {"Name": "Interpersonal"},
+  {"Name": "Critical Thinking"}
+]

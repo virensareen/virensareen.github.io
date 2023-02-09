@@ -14,7 +14,7 @@ public static class AssetPaths
     public static string ProgrammingSkill => GetPath("ProgrammingSkill");
     public static string SoftSkill => GetPath("SoftSkill");
     public static string TechSkill => GetPath("TechSkill");
-    public static string WorkExperience => GetPath("PerWorkExperienceson");
+    public static string WorkExperience => GetPath("WorkExperience");
 
     private static string GetPath(string name)
     {

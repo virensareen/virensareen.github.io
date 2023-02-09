@@ -18,13 +18,14 @@ public static class AssetPaths
 
     private static string GetPath(string name)
     {
-        return Environment.GetEnvironmentVariable(name) ?? GetLocalPath(name);
+        var fullName = "AssetPaths:" + name;
+        return Environment.GetEnvironmentVariable(fullName) ?? GetLocalPath(fullName);
     }
     
-    private static string GetLocalPath(string name)
+    private static string GetLocalPath(string fullName)
     {
         var config = ConfigurationHelper.GetConfiguration();
-        var path = config.GetSection("AssetPaths:" + name).Value;
+        var path = config.GetSection(fullName).Value;
         
         return path ?? throw new InvalidOperationException();
     }

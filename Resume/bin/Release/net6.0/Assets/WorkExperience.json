@@ -38,6 +38,18 @@
     ]
   },
   {
+    "JobTitle": "Software Engineering Intern",
+    "Company": "ASOS.com",
+    "Location": "London, UK",
+    "TimePeriod": "June 2018 - June 2019",
+    "LogoUrl": "~/assets/workexperience/asos.png",
+    "WorkAchievements":
+    [
+      {"Description": "Completed graduate training project in software development focussing on C# and SQL."},
+      {"Description": "Pioneered Specflow testing for .NET Core applications in the business."}
+    ]
+  },
+  {
     "JobTitle": "Operations Supervisor",
     "Company": "UCLA Recreation",
     "Location": "Los Angeles, CA",

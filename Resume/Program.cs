@@ -27,7 +27,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 await DatabaseSetup.ResetDb();
-//await DatabaseSetup.EnsureDbExists();
 
 app.Run();
 

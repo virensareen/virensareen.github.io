@@ -1,7 +1,7 @@
 using Resume.Data.Repositories.Interfaces;
 using Resume.Data.Tables;
 
-namespace Resume.Data.Repositories;
+namespace Resume.Data.Repositories.Commands;
 
 public class WorkExperienceCommandsRepository : IWorkExperienceCommandsRepository
 {

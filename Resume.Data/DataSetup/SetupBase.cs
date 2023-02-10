@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using Resume.Data.Commands;
 using Resume.Data.Enums;
 using Resume.Data.Models;
-using Resume.Data.Repositories;
+using Resume.Data.Repositories.Commands;
 using Resume.Data.Tables;
 
 namespace Resume.Data.DataSetup;
@@ -15,9 +15,8 @@ public static class SetupBase
         var people = FetchDataFromJson(new List<Person>(), 
             Path.Combine(GetProjectRoot(), AssetPaths.Person));
         await personCommand.SaveNewPeople(people);
-        
-        var personDbContext = new DataContext();
-        var personId = personDbContext.Person.FirstOrDefault(row => row!.Name == "Viren Sareen")!.PersonId;
+
+        var personId = DbHelper.GetPersonIdByName("Viren Sareen");
         
         var educationCommand = new EducationCommands(new EducationCommandsRepository());
         var educations = FetchDataFromJson(new List<Education>(), 

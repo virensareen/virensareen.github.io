@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Resume.Data;
 using Resume.Data.DataSetup;
 
@@ -6,17 +7,14 @@ namespace Resume.Setup;
 public static class DatabaseSetup
 {
     private static readonly DataContext Db = new();
-    public static async Task EnsureDbExists()
+    
+    public static async Task ResetDb()
     {
         try
         {
-            if (await Db.Database.CanConnectAsync() == false)
-            {
-                await Db.Database.EnsureCreatedAsync();
-                await SetupBase.PopulateSetupData();
-            }
-
-            await Db.DisposeAsync();
+            await ClearDb();
+            await Db.Database.EnsureCreatedAsync();
+            await SetupBase.PopulateSetupData();
         }
         catch (Exception e)
         {
@@ -25,11 +23,17 @@ public static class DatabaseSetup
         }
     }
 
-    public static async Task ResetDb()
+    private static async Task ClearDb()
     {
-        await Db.Database.EnsureCreatedAsync();
-        await SetupBase.PopulateSetupData();
+        var tableNames = new List<string>
+        {
+            "Certification", "Education", "ExtraCurricular", "Person",
+            "ProgrammingSkill", "Skill", "SoftSkill", "TechSkill", "WorkExperience"
+        };
         
-        await Db.DisposeAsync();
+        foreach (var tableName in tableNames)
+        {
+            await Db.Database.ExecuteSqlRawAsync($"DELETE FROM {tableName};");
+        }
     }
 }

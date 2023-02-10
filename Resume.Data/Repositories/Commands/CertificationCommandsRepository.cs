@@ -1,7 +1,7 @@
 using Resume.Data.Repositories.Interfaces;
 using Resume.Data.Tables;
 
-namespace Resume.Data.Repositories;
+namespace Resume.Data.Repositories.Commands;
 
 public class CertificationCommandsRepository : ICertificationCommandsRepository
 {
@@ -10,7 +10,7 @@ public class CertificationCommandsRepository : ICertificationCommandsRepository
         try
         {
             var dbContext = new DataContext();
-        
+            
             await dbContext.Certification.AddRangeAsync(certifications);
             
             await dbContext.SaveChangesAsync();

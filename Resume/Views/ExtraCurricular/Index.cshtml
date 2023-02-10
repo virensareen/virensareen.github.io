@@ -1,24 +1,21 @@
 @model IEnumerable<Resume.Data.Tables.ExtraCurricular>
-
-<div class="row">
-    <div class="col-md-12">
-        <h1>Extra Curriculars</h1>
-        <hr>
-    </div>
-    <div class="col-md-12">
-        <div class="card-deck">
-            @foreach (var item in Model)
-            {
-                <div class="card mb-5">
-                    <div class="card-body">
-                        <img src="@Url.Content(item.ImageUrl)" class="small-icon-img" alt="@item.Title" style="float: left; margin-right: 10px;">
-                        <h5 class="card-title">@item.Title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">@item.TimePeriod</h6>
-                        <p class="card-text">@item.Description</p>
-                        <p class="card-text">Key Achievements: @item.Achievement</p>
-                    </div>
-                </div>
-            }
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Extra Curriculars</h1>
+            <hr>
         </div>
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="certification-item">
+                    <i class="fas fa-certificate fa-2x"></i>
+                    <img src="@Url.Content(item.ImageUrl)" class="small-icon-img" alt="@item.Title" style="float: left; margin-right: 10px;">
+                    <h2 class="certification-title">@item.Title</h2>
+                    <p class="certification-date">@item.TimePeriod</p>
+                    <p class="certification-description">@item.Description</p>
+                </div>
+            </div>
+        }
     </div>
 </div>

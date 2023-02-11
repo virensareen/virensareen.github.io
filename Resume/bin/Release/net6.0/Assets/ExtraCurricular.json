@@ -1,43 +1,37 @@
 [
   {
     "Title": "Marketing Board - ActiveMinds UCLA.",
-    "Description": "TBA",
-    "Achievement": "TBA",
-    "TimePeriod": "TBA",
+    "Description": "Working in a team to drive social media, expertly managing the Instagram and TikTok handles and develop successful on-campus marketing campaigns to promote awareness on mental health for students.",
+    "TimePeriod": "September 2022 - June 2023",
     "ImageUrl": "~/assets/extracurricular/activeminds.jpg"
   },
   {
     "Title": "Founder & Volunteer - onrepeat.co.uk.",
-    "Description": "An event organizer based in the UK to help raise money for charity.",
-    "Achievement": "",
+    "Description": "Initiated the establishment of a club event organization in London, forging strategic partnerships with several universities to drive fundraising efforts for charitable causes.",
     "TimePeriod": "July 2019 - November 2022",
     "ImageUrl": "~/assets/extracurricular/onrepeat.png"
   },
   {
     "Title": "Charity efforts - Akshaya Patra/Pratham.",
     "Description": "Worked with event organisers and charitable non-profit organizations such as Pratham to raise money, providing education to underprivileged children in Southern Asia.",
-    "Achievement": "TBA",
     "TimePeriod": "September 2016 - November 2022",
     "ImageUrl": "~/assets/extracurricular/akshayapatra.jpg"
   },
   {
     "Title": "Vice President (Events) - KCL Tech Society.",
-    "Description": "TBA",
-    "Achievement": "TBA",
+    "Description": "Spearheaded organizing social events, elevating campus life through memorable experiences such as freshers icebreaker and pizza night. Adeptly advocated for the tech scene on campus, amplifying the society's visibility and impact.",
     "TimePeriod": "September 2018 - July 2019",
     "ImageUrl": "~/assets/extracurricular/kcltechsoc.jpg"
   },
   {
     "Title": "President - KCL India Society.",
-    "Description": "TBA",
-    "Achievement": "TBA",
+    "Description": "Demonstrated excellent leadership skills by planning the strategic direction and growth of the second largest cultural society in the UK, boasting a dynamic membership base of over 400 active members. Efficiently executed an array of impactful events including Health Week, Color Festival and other social events, resulting in a significant increase in event attendance, membership numbers, student experience and charitable contributions.",
     "TimePeriod": "September 2016 - July 2017",
     "ImageUrl": "~/assets/extracurricular/kclindiasoc.png"
   },
   {
     "Title": "Student Ambassador - King's College London.",
-    "Description": "TBA",
-    "Achievement": "TBA",
+    "Description": "Advocating for the Informatics department at King's College London by actively participating in open days and other events, showcasing the exciting opportunities and fostering enthusiasm for pursuing a career in technology.",
     "TimePeriod": "September 2015 - July 2016",
     "ImageUrl": "~/assets/education/kcl.png"
   },

@@ -4,13 +4,25 @@
     "Course": "Application Programming Certification",
     "Grade": "3.9 GPA",
     "GraduationDate": "June 2023",
-    "LogoUrl": "~/assets/education/ucla.png"
+    "LogoUrl": "~/assets/education/ucla.png",
+    "EducationAchievements":
+    [
+      {"Description": "Acquired additional expertise in software engineering through comprehensive training in multiple programming languages including C#, C++, Python, SQL, and Java."},
+      {"Description": "Achieved outstanding academic performance, consistently maintaining a high GPA and earning top scores in numerous classes."},
+      {"Description": "Shared knowledge by delivering a guest lecture on test-driven development to fellow students during the C# module."}
+    ]
   },
   {
     "School": "King's College London",
     "Course": "BSc Honors Computer Science (Software Engineering) with Management",
     "Grade": "2nd Class Division",
     "GraduationDate": "July 2019",
-    "LogoUrl": "~/assets/education/kcl.png"
+    "LogoUrl": "~/assets/education/kcl.png",
+    "EducationAchievements":
+    [
+      {"Description": "Crafted a cutting-edge thesis on a penetration testing suite for an autograder, greatly contributing to the Informatics department at King's College London."},
+      {"Description": "Demonstrated exceptional communication skills as a student ambassador for Informatics at King's, encouraging prospective students towards a career in tech and playing a key role in organizing successful events and initiatives."},
+      {"Description": "Recognized for outstanding volunteerism and philanthropic efforts at the student union, receiving multiple awards for organizing events, fundraising for charity, and making a meaningful impact on the community."}
+    ]
   }
 ]

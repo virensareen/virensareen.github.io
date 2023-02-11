@@ -7,9 +7,9 @@
     "LogoUrl": "~/assets/workexperience/asos.png",
     "WorkAchievements":
     [
-      {"Description": "Developing and maintaining APIs, scripts and microservices for warehouse stock and fulfilment services catering to global regions including North America, Europe and Asia."},
-      {"Description": "Mentoring and training intern level colleagues, supporting personal and professional development."},
-      {"Description": "Deepening my technical skills in C#, SQL, Azure services and Git."}
+      {"Description": "Crafted and upheld back-end services for a globally accessible stock & fulfillment."},
+      {"Description": "Guided and trained intern-level colleagues for personal and professional advancement."},
+      {"Description": "Accurately executed production releases with post-release monitoring and support."}
     ]
   },
   {
@@ -20,9 +20,9 @@
     "LogoUrl": "~/assets/workexperience/solirius.png",
     "WorkAchievements":
     [
-      {"Description": "Developing a Video Hearing’s application for UK judicial courts using SQL, C# and Angular."},
-      {"Description": "Enhancing an internal timesheet software using Django, adding value to the business in addition to client work."},
-      {"Description": "Supporting graduate recruitment and training for new junior software engineers."}
+      {"Description": "Developed Video Hearing web application for UK judicial courts utilizing SQL, C# & Angular."},
+      {"Description": "Improved internal timesheet software with Django by creating additional reporting features."},
+      {"Description": "Supported graduate recruitment and training of new incoming graduate engineers."}
     ]
   },
   {
@@ -33,8 +33,8 @@
     "LogoUrl": "~/assets/workexperience/innocent.jpg",
     "WorkAchievements":
     [
-      {"Description": "Fixing and enhancing back end applications using .NET, Java and SQL Server."},
-      {"Description": "Successfully migrated all code from TFS to Git and project management Jira to Azure DevOps, hugely enabling the business to plan and work much better."}
+      {"Description": "Optimized and enriched back-end applications using C#.NET, Java and SQL."},
+      {"Description": "Managed migration from TFS to Git and Jira to DevOps, resulting in substantial business value."}
     ]
   },
   {
@@ -57,7 +57,9 @@
     "LogoUrl": "~/assets/workexperience/uclarec.jpg",
     "WorkAchievements":
     [
-      {"Description": "TBA"}
+      {"Description": "Expertly overseeing the Recreation Center, promoting safety for patrons by working closely with managers and lifeguards."},
+      {"Description": "Providing top-notch training and supervision to operations employees to ensure optimal on-duty performance."},
+      {"Description": "Quickly responding to emergency situations as the primary point of contact, coordinating with the relevant services (such as 911) to handle on-site incidents."}
     ]
   },
   {
@@ -80,7 +82,8 @@
     "LogoUrl": "~/assets/workexperience/fsi.jpg",
     "WorkAchievements":
     [
-      {"Description": "TBA"}
+      {"Description": "Leveraged extensive software engineering knowledge by successfully completing a 4-week introductory course"},
+      {"Description": "Contributed to team success by offering valuable support and assistance to software engineers in completing complex projects."}
     ]
   },
   {
@@ -91,7 +94,8 @@
     "LogoUrl": "~/assets/workexperience/taylorwessing.png",
     "WorkAchievements":
     [
-      {"Description": "SQL"}
+      {"Description": "Grew adept in IT support by shadowing experienced employees and providing effective resolution to incidents."},
+      {"Description": "Demonstrated remarkable proficiency and independence at the age of 15 by completing tasks and resolving tickets with ease by the conclusion of the internship."}
     ]
   }
 ]

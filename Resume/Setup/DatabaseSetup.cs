@@ -10,6 +10,14 @@ public static class DatabaseSetup
     
     public static async Task ResetDb()
     {
+        var isResetNeeded = bool.Parse((Environment.GetEnvironmentVariable("ResetDb") 
+                                        ?? ConfigurationHelper.GetConfiguration().GetSection("ResetDb").Value) 
+                                        ?? throw new InvalidOperationException());
+        if (!isResetNeeded)
+        {
+            return;
+        }
+        
         try
         {
             await ClearDb();

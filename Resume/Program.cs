@@ -29,5 +29,3 @@ app.MapControllerRoute(
 await DatabaseSetup.ResetDb();
 
 app.Run();
-
-

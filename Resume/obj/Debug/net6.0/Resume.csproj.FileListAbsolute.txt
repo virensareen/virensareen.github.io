@@ -1,7 +1,17 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/appsettings.Development.json
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/appsettings.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/package-lock.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/package.json
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume.staticwebassets.runtime.json
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/Certification.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/Education.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/ExtraCurricular.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/Person.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/ProgrammingSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/SoftSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/TechSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/WorkExperience.json
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume.deps.json
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume.runtimeconfig.json
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume.dll
@@ -16,9 +26,15 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
@@ -33,6 +49,7 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Drawing.Common.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
@@ -40,6 +57,8 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Runtime.Caching.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Text.Json.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/System.Windows.Extensions.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
@@ -52,6 +71,7 @@
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume.Data.dll
 /Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Resume.Data.pdb
@@ -74,7 +94,3 @@
 /Users/virensareen/RiderProjects/Resume/Resume/obj/Debug/net6.0/Resume.pdb
 /Users/virensareen/RiderProjects/Resume/Resume/obj/Debug/net6.0/Resume.genruntimeconfig.cache
 /Users/virensareen/RiderProjects/Resume/Resume/obj/Debug/net6.0/ref/Resume.dll
-/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Newtonsoft.Json.dll
-/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/Assets/Person.json
-/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/package-lock.json
-/Users/virensareen/RiderProjects/Resume/Resume/bin/Debug/net6.0/package.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hbEhiLuvYpgbFtLMbg6EVn/3kgarn50rj+PBwHHsnJg=",
+  "Hash": "q/MTExQVNfx3+tOCSeD6epDPs9IwuK8ZA943TW+1uIo=",
   "Source": "Resume",
   "BasePath": "_content/Resume",
   "Mode": "Default",
@@ -391,12 +391,12 @@
       "OriginalItemSpec": "wwwroot/assets/icons/phone.png"
     },
     {
-      "Identity": "/Users/virensareen/RiderProjects/Resume/Resume/wwwroot/assets/icons/pin.png",
+      "Identity": "/Users/virensareen/RiderProjects/Resume/Resume/wwwroot/assets/icons/pin1.png",
       "SourceId": "Resume",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/virensareen/RiderProjects/Resume/Resume/wwwroot/",
       "BasePath": "_content/Resume",
-      "RelativePath": "assets/icons/pin.png",
+      "RelativePath": "assets/icons/pin1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,7 +405,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/icons/pin.png"
+      "OriginalItemSpec": "wwwroot/assets/icons/pin1.png"
     },
     {
       "Identity": "/Users/virensareen/RiderProjects/Resume/Resume/wwwroot/assets/viren.jpeg",

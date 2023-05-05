@@ -1,3 +1,11 @@
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/Certification.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/Education.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/ExtraCurricular.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/Person.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/ProgrammingSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/SoftSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/TechSkill.json
+/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/WorkExperience.json
 /Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Resume.Data.deps.json
 /Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Resume.Data.dll
 /Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Resume.Data.pdb
@@ -10,4 +18,3 @@
 /Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Debug/net6.0/refint/Resume.Data.dll
 /Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Debug/net6.0/Resume.Data.pdb
 /Users/virensareen/RiderProjects/Resume/Resume.Data/obj/Debug/net6.0/ref/Resume.Data.dll
-/Users/virensareen/RiderProjects/Resume/Resume.Data/bin/Debug/net6.0/Assets/Person.json

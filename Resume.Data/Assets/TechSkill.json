@@ -26,5 +26,8 @@
   {"Name": "JetBrains IntelliJ (2 years)"},
   {"Name": "JetBrains Rider (2 years)"},
   {"Name": "Google Cloud Platform (1 year)"},
-  {"Name": "Command Line (3 years)"}
+  {"Name": "Command Line (3 years)"},
+  {"Name": "Microservices Architecture (3 years)"},
+  {"Name": "Event Driven Architecture (2 years)"},
+  {"Name": "Docker (2 years)"}
 ]
